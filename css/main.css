@@ -54,3 +54,52 @@ h1{
 
 }
 
+.contactpage{
+      background-image: url('');
+  
+}
+
+
+
+.jumbotron h1{
+	    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.jumbotron{
+	text-align: center;
+	background-image: url('https://hd.unsplash.com/photo-1471107191679-f26174d2d41e');
+	color: white;
+	background-size: cover;
+}
+
+.btn-lg{
+	font-size: 20px;
+}
+.about-pbl {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+
+.about-pbl-heading {
+  font-weight: 300;
+}
+
+.about-pbl .container {
+  max-width: 40rem;
+  background: rgba(255,255,255,0.5);
+  padding: 2rem;
+  color: black;
+}
+
+.about-pbl p {
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
