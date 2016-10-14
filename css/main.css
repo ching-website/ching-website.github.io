@@ -31,7 +31,7 @@ html {
     background-color: #292b40;
     font-family: 'Montserrat', sans-serif;
 }
-
+/* Homepage BG */
 
 #home{
  background: url("../images/bg4.jpg") no-repeat center center fixed;  
@@ -45,7 +45,7 @@ h1{
 #welcomeText{
     color: white;
 }
-
+/* Navbar */
 .navbar-default, .navbar, .navbar-header{
     background-color: #292b40;
     border-color:#292b40;
@@ -118,7 +118,7 @@ color: white;
     margin: 0 auto;
 }
 
-
+/* Contact BG/Hero Section */
 
 header {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://hd.unsplash.com/uploads/1413142095961484763cf/d141726c');
@@ -160,7 +160,7 @@ header {
     .row { padding: 0 2%; }
 }
 
-
+/* Buttons */
 .btn:link,
 .btn:visited,
 input[type=submit] {
