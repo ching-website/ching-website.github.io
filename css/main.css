@@ -113,7 +113,10 @@ color: white;
 @media (max-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
 
 }
-@media (max-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+@media (max-width:481px)  {  
+
+
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
 
 }
 @media (max-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
@@ -129,6 +132,8 @@ color: white;
     .card{
         margin-top: 0px;
     }
+
+
 
 }
 @media (max-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
@@ -289,7 +294,8 @@ input[type=submit]:active {
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
        only screen and (-o-min-device-pixel-ratio: '200/100'),
        only screen and (min-resolution: 2dppx) {
-           .contact-title {font-weight: 100;}
+           .contact-title {font-weight: 100;
+           }
 }
 
 
@@ -306,4 +312,16 @@ input[type=submit]:active {
     display: block;
     float: left;
     margin: 1% 0 1% 1.6%;
+}
+
+@media only screen and (max-width: 767px) {
+.col {
+     width: 100%; 
+     }
+}
+
+@media only screen and (max-width: 480px){
+.contact-cards-grid {
+     width: 100%; 
+}
 }
