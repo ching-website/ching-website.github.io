@@ -67,9 +67,9 @@ h1{
     color: white;
 }
 /* Navbar */
-.navbar-default, .navbar, .navbar-header{
-    background-color: #292b40;
-    border-color:#292b40;
+.navbar-default, .navbar, .navbar-header, .navbar-brand{
+    background-color: rgba(41,43,64, 0.25);
+    border-color:rgba(41,43,64, 0.25);
     background-image: none;
     background-repeat: no-repeat;
 }
@@ -99,8 +99,16 @@ color: white;
 
 .card-internals{
     background-color: white;
+    border-radius: 5px;
     padding: 20px;
     height: 
+}
+
+.scrolled{
+    background-color: #292b40;
+    border-color:#292b40;
+    background-image: none;
+    background-repeat: no-repeat;
 }
 
 @media (max-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
