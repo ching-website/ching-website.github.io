@@ -14,3 +14,9 @@ if($('.navbar').length > 0){
         checkScroll();
     });
 }
+
+
+$(window).load(function(){
+    $('.preloader').fadeOut(1000); // set duration in brackets
+    $('.loading').fadeOut(1000); // set duration in brackets    
+});
