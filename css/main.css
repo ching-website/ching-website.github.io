@@ -85,7 +85,7 @@ h1{
 
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-color: white;
+color: #ccc;
 }
 
 .card{
@@ -111,6 +111,7 @@ color: white;
     background-image: none;
     background-repeat: no-repeat;
 }
+
 
 @media (max-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
 
