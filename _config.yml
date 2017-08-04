@@ -8,9 +8,7 @@
 # Site settings
 title: Ching Website
 description: > # this means to ignore newlines until "baseurl:"
- description will go here
-baseurl: "127.0.0.1:4000" 
-url: "127.0.0.1:4000" 
+# description will go here
 
 # Markdown settings
 markdown: kramdown
